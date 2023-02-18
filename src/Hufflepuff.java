@@ -29,6 +29,14 @@ public class Hufflepuff extends Hogwarts{
 
     }
 
+
+    public void showSkillsFacultet(Hufflepuff hufflepuff){
+        System.out.println(hufflepuff.getName() + " имеет следующие характеристики:\n" +
+                "Трудолюбие: " + hufflepuff.getHardworking() + "\n" +
+                "Верность: " + hufflepuff.getLoyal() + "\n" +
+                "Честность: " + hufflepuff.getHonest());
+    }
+
     public int getHardworking() {
         return hardworking;
     }

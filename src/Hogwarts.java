@@ -37,20 +37,15 @@ public class Hogwarts {
     }
 
 
+    public void showSkills(Hogwarts hogwarts){
+        System.out.println(hogwarts.getName() + " имеет следующие характеристики:\n" +
+                 "Трансгрессировать: " + getTransgressions() + "\n" +
+                "Характер: " + getCharacter() + "\n" +
+                "Сила магии: " + getPowerOfMagic() + "\n" +
+                "Расстояние трансгресии " + getDistance() + "\n" +
+                "Мощность магии " + getMagic());
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
     public String getName() {
         return name;
     }

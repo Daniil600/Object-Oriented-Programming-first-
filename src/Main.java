@@ -46,5 +46,28 @@ public class Main {
 
         gryffindors[0].comparisonOfHogwards(slytherins[0],ravenclaws[1]);
 
+        System.out.println();
+
+        gryffindors[2].showSkills(gryffindors[2]);
+
+        System.out.println();
+
+        gryffindors[0].showSkillsFacultet(gryffindors[0]);
+
+        System.out.println();
+
+        hufflepuffs[0].showSkillsFacultet(hufflepuffs[0]);
+
+        System.out.println();
+
+        ravenclaws[0].showSkillsFacultet(ravenclaws[0]);
+
+        System.out.println();
+
+        slytherins[0].showSkillsFacultet(slytherins[0]);
+
+        System.out.println();
+
+        slytherins[0].showSkills(slytherins[0]);
     }
 }
