@@ -28,32 +28,12 @@ public class Gryffindor extends Hogwarts {
 
     }
 
-
-
-/*
-    int grif1 = gryffindor1.getCharacter() + gryffindor1.getMagic() + gryffindor1.getPowerOfMagic()
-            + gryffindor1.getDistance() + gryffindor1.getTransgressions()
-            + gryffindor1.getNobility() + ;
-    int grif2 = gryffindor2.getCharacter() + gryffindor2.getMagic() + gryffindor2.getPowerOfMagic()
-            + gryffindor2.getDistance() + gryffindor2.getTransgressions()
-            + gryffindor2.getNobility() + gryffindor2.getNobility() + gryffindor2.getHonor() + gryffindor2.getCourage();
-        if (grif1 > grif2){
-        System.out.println(gryffindor1.getName() + " лучший Гриффиндорец, чем " + gryffindor2.getName());
+    public void showSkillsFacultet(Gryffindor gryffindor){
+        System.out.println(gryffindor.getName() + " имеет следующие характеристики:\n" +
+                "Благородство: " + gryffindor.getNobility() + "\n" +
+                "Честь: " + gryffindor.getHonor() + "\n" +
+                "Храбрость: " + gryffindor.getCourage());
     }
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     public int getNobility() {

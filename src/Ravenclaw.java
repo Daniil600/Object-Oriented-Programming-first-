@@ -32,6 +32,14 @@ public class Ravenclaw extends Hogwarts {
 
     }
 
+    public void showSkillsFacultet(Ravenclaw ravenclaw){
+        System.out.println(ravenclaw.getName() + " имеет следующие характеристики:\n" +
+                "Интелект: " + ravenclaw.getIntelligent() + "\n" +
+                "Мудрость: " + ravenclaw.getWise() + "\n" +
+                "Остроумие: " + ravenclaw.getWitty() + "\n" +
+                "Творчество  " + getCreativity());
+    }
+
     public int getIntelligent() {
         return intelligent;
     }

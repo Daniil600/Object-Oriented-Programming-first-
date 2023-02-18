@@ -30,12 +30,14 @@ public class Slytherin extends Hogwarts{
         }
     }
 
-
-
-
-
-
-
+    public void showSkillsFacultet(Slytherin slytherin){
+        System.out.println(slytherin.getName() + " имеет следующие характеристики:\n" +
+                "Хитрость: " + slytherin.getCunning() + "\n" +
+                "Решительность: " + slytherin.getDetermination() + "\n" +
+                "Амбициозность: " + slytherin.getAmbition() + "\n" +
+                "Находчивость   " + slytherin.getResourcefulness() + "\n" +
+                "Жажда власти " + slytherin.lustForPower);
+    }
 
 
     public int getCunning() {
